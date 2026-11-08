@@ -95,6 +95,29 @@
       </div>
     </div>
     <div class="hero-side">
+      <section class="audio-note" aria-labelledby="audio-note-title" data-audio-note>
+        <div class="audio-note-row">
+          <button class="audio-play" type="button" aria-describedby="audio-note-title" data-audio-toggle hidden>
+            <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>
+            <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg>
+            <span class="visually-hidden" data-audio-label>Play</span>
+          </button>
+          <div class="audio-note-text">
+            <h2 class="audio-note-title" id="audio-note-title">Listen to this audio message</h2>
+            <p class="audio-note-sub">A short introduction to working with Jahmai <span class="audio-time" data-audio-time>0:48</span></p>
+          </div>
+          <span class="audio-bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        </div>
+        <input class="audio-seek" type="range" min="0" max="48" step="1" value="0" aria-label="Audio position" aria-valuetext="0:00 of 0:48" data-audio-seek hidden>
+        <audio class="audio-native" src="./assets/media/jahmai-intro.mp3" preload="none" controls data-audio>
+          <a href="./assets/media/jahmai-intro.mp3">Download the audio message (MP3, under 1 minute)</a>
+        </audio>
+        <details class="audio-transcript">
+          <summary>Read the transcript</summary>
+          <p>Medicare can be confusing, but finding the right coverage for you doesn't have to be. Meet Jahmai Royster, a health and wellness broker and independent, licensed insurance agent right here in Georgia, with an office in East Point. Whether you're turning 65, exploring Medicare for the first time, or wondering if your current plan is still the right fit, Jahmai is here to help. Jahmai will listen, answer your questions, and compare Medicare plans side by side from the insurance companies Jahmai represents.</p>
+          <p>And here's something you'll appreciate. There's no cost for Jahmai's help, and absolutely no pressure. Just friendly, personal service from someone who cares about helping you make the right choice. So give Jahmai a call today at (229) 376-6879, or schedule a conversation right here on this website. Having someone you can trust makes all the difference.</p>
+        </details>
+      </section>
       <div class="seal">
         <svg class="seal-ring" viewBox="0 0 400 400" aria-hidden="true" focusable="false">
           <defs><path id="seal-path" d="M200 200 m-176 0 a176 176 0 1 1 352 0 a176 176 0 1 1 -352 0"/></defs>
