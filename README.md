@@ -1,4 +1,4 @@
-# Jahmai Royster, health & wellness broker (East Point, GA) — website + CRM
+# Jahmai Royster, Medicare broker (East Point, GA) — website + CRM
 
 One small Node.js process serves:
 
