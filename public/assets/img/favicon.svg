@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jahmai Royster capsule mark">
-  <defs><clipPath id="c"><rect x="20" y="3" width="24" height="58" rx="12"/></clipPath></defs>
-  <g transform="rotate(-32 32 32)" clip-path="url(#c)">
-    <rect x="20" y="3" width="24" height="58" fill="#1b5a45"/>
-    <rect x="20" y="35" width="24" height="26" fill="#f2b632"/>
-    <rect x="20" y="33" width="24" height="3" fill="#0c2b22"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jahmai Royster sign mark">
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="#0b6a42"/>
+  <rect x="6.5" y="6.5" width="51" height="51" rx="8" fill="none" stroke="#fff" stroke-width="3"/>
+  <path transform="rotate(45 32 32)" d="M32 13 47 28h-9v23H26V28h-9z" fill="#fff"/>
 </svg>

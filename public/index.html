@@ -10,13 +10,13 @@
 <meta property="og:title" content="Medicare Plans in Georgia | Jahmai Royster, Licensed Insurance Agent">
 <meta property="og:description" content="Clear answers and an honest comparison of the Medicare plans available to you, from a licensed Georgia insurance agent.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="./assets/img/broker-photo-placeholder.svg">
-<meta name="theme-color" content="#123a2f">
-<link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+<meta property="og:image" content="./assets/img/broker-photo-placeholder.svg?v=2">
+<meta name="theme-color" content="#1e2225">
+<link rel="icon" href="./assets/img/favicon.svg?v=2" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400..800;1,400..800&amp;family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&amp;display=swap">
-<link rel="stylesheet" href="./assets/css/styles.css?v=10">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400..800;1,400..800&amp;family=Overpass:wght@400..900&amp;display=swap">
+<link rel="stylesheet" href="./assets/css/styles.css?v=13">
 <script src="./assets/js/site.js?v=3" defer></script>
 <script type="application/ld+json">
 {
@@ -27,7 +27,7 @@
   "telephone": "+1-229-376-6879",
   "email": "jbrhealthplans@gmail.com",
   "areaServed": { "@type": "State", "name": "Georgia" },
-  "image": "./assets/img/broker-photo-placeholder.svg",
+  "image": "./assets/img/broker-photo-placeholder.svg?v=2",
   "employee": { "@type": "Person", "name": "Jahmai Royster", "jobTitle": "Licensed Insurance Agent" },
   "address": { "@type": "PostalAddress", "streetAddress": "3675 Marketplace Blvd #1142", "addressLocality": "East Point", "addressRegion": "GA", "postalCode": "30344", "addressCountry": "US" },
   "parentOrganization": { "@type": "Organization", "name": "Empower Brokerage", "url": "https://empowerbrokerage.com" }
@@ -47,7 +47,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="./" aria-label="Jahmai Royster, licensed insurance agent: home">
-      <img class="brand-mark" src="./assets/img/favicon.svg" width="52" height="52" alt="">
+      <img class="brand-mark" src="./assets/img/favicon.svg?v=2" width="52" height="52" alt="">
       <span><span class="brand-name">Jahmai Royster</span><span class="brand-tag">Health &amp; wellness broker/agent, Georgia</span></span>
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
@@ -80,17 +80,19 @@
 
 <section class="hero" aria-labelledby="hero-title">
   <div class="container hero-grid">
-    <div>
+    <div class="hero-copy">
       <p class="h1-sub">Jahmai Royster, independent insurance broker for Medicare plans in Georgia</p>
       <h1 id="hero-title">Clear answers and an honest comparison of your Medicare plan choices.</h1>
       <p class="lead">I compare plans from the insurance companies I represent side by side, check your doctors and prescriptions against each one, and help you enroll. There's no cost for my help, and no pressure to choose anything.</p>
       <div class="btn-row">
         <a class="btn btn-gold" href="tel:+12293766879"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>Call (229) 376-6879</a>
-        <a class="btn btn-ghost" href="./contact/">Book a conversation</a>
+        <a class="btn btn-ghost-light" href="./contact/">Book a conversation</a>
       </div>
       <p class="hero-call">Meet by phone, video, or in person. Calls about Medicare Advantage and Part D plans are recorded, as Medicare requires.</p>
+    </div>
+    <div class="hero-side">
       <div class="season" data-season>
-        <span class="season-dot" aria-hidden="true"></span>
+        <span class="season-sign" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 7v6M12 16.5v.5" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" fill="none"/></svg></span>
         <p><strong>Annual Enrollment runs October 15 to December 7 each year.</strong> It's when you can join, switch, or drop a Medicare Advantage or Part D drug plan for the coming year.</p>
       </div>
       <section class="audio-note" aria-labelledby="audio-note-title" data-audio-note>
@@ -117,12 +119,16 @@
         </details>
       </section>
     </div>
-    <div class="hero-side">
-      <figure class="capsule">
-        <img src="./assets/img/broker-photo-placeholder.svg" width="720" height="720" alt="Photo of Jahmai Royster coming soon" fetchpriority="high">
-        <figcaption class="capsule-cap">Licensed in Georgia<small>Office in East Point</small></figcaption>
-      </figure>
-    </div>
+    <section class="gantry" aria-labelledby="paths-title">
+      <h2 id="paths-title">Where are you with Medicare right now?</h2>
+      <p class="gantry-lead">Choose the one that sounds most like you. Each leads to a short, easy-to-follow guide.</p>
+      <ul class="paths">
+        <li><a href="./turning-65/"><span class="path-say">I'm turning 65 soon.</span><span class="path-more">What to do and when, from your first sign-up window to choosing coverage.</span><span class="path-go" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 1.5 22 11.5h-6.2V22.5H8.2V11.5H2z" fill="currentColor"/></svg></span></a></li>
+        <li><a href="./leaving-employer-coverage/"><span class="path-say">I'm retiring or leaving my job's health plan.</span><span class="path-more">How to move to Medicare without a gap in coverage or a late penalty.</span><span class="path-go" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 1.5 22 11.5h-6.2V22.5H8.2V11.5H2z" fill="currentColor"/></svg></span></a></li>
+        <li><a href="./enrollment-periods/"><span class="path-say">I want to review my plan for next year.</span><span class="path-more">What can change each fall, and how to check that your plan still fits.</span><span class="path-go" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 1.5 22 11.5h-6.2V22.5H8.2V11.5H2z" fill="currentColor"/></svg></span></a></li>
+        <li><a href="./helping-a-parent/"><span class="path-say">I'm helping a parent with Medicare.</span><span class="path-more">How family members can join the conversation and what to have ready.</span><span class="path-go" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 1.5 22 11.5h-6.2V22.5H8.2V11.5H2z" fill="currentColor"/></svg></span></a></li>
+      </ul>
+    </section>
   </div>
 </section>
 
@@ -133,28 +139,13 @@
   </div>
 </aside>
 
-<section class="section" aria-labelledby="paths-title">
-  <div class="container">
-    <div class="section-head">
-      <h2 id="paths-title">Where are you with Medicare right now?</h2>
-      <p class="lead">Choose the one that sounds most like you. Each leads to a short, easy-to-follow guide.</p>
-    </div>
-    <ul class="paths">
-      <li><a href="./turning-65/"><span class="path-say">I'm turning 65 soon.</span><span class="path-more">What to do and when, from your first sign-up window to choosing coverage.</span><span class="path-go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><polyline points="12 5 19 12 12 19"/></svg></span></a></li>
-      <li><a href="./leaving-employer-coverage/"><span class="path-say">I'm retiring or leaving my job's health plan.</span><span class="path-more">How to move to Medicare without a gap in coverage or a late penalty.</span><span class="path-go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><polyline points="12 5 19 12 12 19"/></svg></span></a></li>
-      <li><a href="./enrollment-periods/"><span class="path-say">I want to review my plan for next year.</span><span class="path-more">What can change each fall, and how to check that your plan still fits.</span><span class="path-go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><polyline points="12 5 19 12 12 19"/></svg></span></a></li>
-      <li><a href="./helping-a-parent/"><span class="path-say">I'm helping a parent with Medicare.</span><span class="path-more">How family members can join the conversation and what to have ready.</span><span class="path-go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><polyline points="12 5 19 12 12 19"/></svg></span></a></li>
-    </ul>
-  </div>
-</section>
-
-<section class="section section-lilac" aria-labelledby="meet-title">
+<section class="section" aria-labelledby="meet-title">
   <div class="container meet">
-    <div class="emblem" aria-hidden="true">
-      <img src="./assets/img/favicon.svg" width="320" height="320" alt="">
-    </div>
+    <figure class="nameplate">
+      <img src="./assets/img/broker-photo-placeholder.svg?v=2" width="720" height="720" alt="Photo of Jahmai Royster coming soon">
+      <figcaption>Jahmai Royster<small>Licensed in Georgia, office in East Point</small></figcaption>
+    </figure>
     <div>
-      <p class="kicker">Your broker</p>
       <h2 id="meet-title">One person who learns your situation and stays with you.</h2>
       <p class="lead">I'm Jahmai Royster, a licensed insurance agent in Georgia working with Empower Brokerage. You talk with me directly, from the first question through enrollment and every year after.</p>
       <p><span class="ph">[A sentence or two in Jahmai's own words about why this work matters and the communities served.]</span></p>
@@ -169,10 +160,9 @@
   </div>
 </section>
 
-<section class="section band-dark" aria-labelledby="how-title">
+<section class="section band-dark road" aria-labelledby="how-title">
   <div class="container">
     <div class="section-head">
-      <p class="kicker">How it works</p>
       <h2 id="how-title">Four steps, at your pace.</h2>
       <p class="lead">You're never obligated to enroll in anything.</p>
     </div>
@@ -210,10 +200,9 @@
   </div>
 </section>
 
-<section class="section section-white" aria-labelledby="dates-title">
+<section class="section section-lilac" aria-labelledby="dates-title">
   <div class="container">
     <div class="section-head">
-      <p class="kicker">Enrollment dates</p>
       <h2 id="dates-title">When you can sign up or make changes.</h2>
       <p class="lead">Medicare has set windows each year. Missing one can mean waiting months or paying a late penalty.</p>
     </div>
@@ -253,11 +242,11 @@
       <li><span class="carrier-name">Wellcare</span></li>
       <li><span class="carrier-name">Devoted Health</span></li>
     </ul>
-    <p class="fine" style="margin-top:22px">Company names are trademarks of their owners and are shown only to identify the companies I'm appointed with. Not every plan is available in every county.</p>
+    <p class="fine carriers-fine">Company names are trademarks of their owners and are shown only to identify the companies I'm appointed with. Not every plan is available in every county.</p>
   </div>
 </section>
 
-<section class="section section-lilac" aria-labelledby="faq-title">
+<section class="section section-rule" aria-labelledby="faq-title">
   <div class="container">
     <div class="section-head">
       <h2 id="faq-title">Questions people ask first.</h2>
@@ -272,10 +261,9 @@
   </div>
 </section>
 
-<section class="section band-dark" aria-labelledby="request-title" id="request">
-  <div class="container meet" style="align-items:start">
+<section class="section section-lilac" aria-labelledby="request-title" id="request">
+  <div class="container meet meet-request">
     <div>
-      <p class="kicker">Request a call</p>
       <h2 id="request-title">Tell me a little, and I'll call you back.</h2>
       <p class="lead">I'll reach out within one business day to set a time that works for you. Prefer to talk now? Call <a href="tel:+12293766879">(229) 376-6879</a>.</p>
       <p>Please don't include your Medicare number, Social Security number, or health details here. We'll cover what's needed when we talk.</p>
