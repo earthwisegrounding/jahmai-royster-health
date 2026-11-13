@@ -19,7 +19,7 @@ const EVENT_STATUS = [['draft', 'Draft'], ['published', 'Published'], ['cancelle
 
 // Required public disclosures, appended automatically (never editable by staff).
 const DISCLOSURES = {
-  marketing: 'A licensed insurance agent will be present with information and applications. For accommodation of persons with special needs at sales meetings, call (229) 376-6879 (TTY 711).',
+  marketing: 'A licensed Medicare broker will be present with information and applications. For accommodation of persons with special needs at sales meetings, call (229) 376-6879 (TTY 711).',
   educational: 'This is an educational event. No plan-specific benefits or details will be shared, and no enrollment applications will be taken. For accommodations, call (229) 376-6879 (TTY 711).',
 };
 // 42 CFR 422.2267(e)(35): shown on every advertisement of events (list pages too).
@@ -251,8 +251,8 @@ function checkEvent(e, { db = null, now = Date.now(), purpose = 'publish' } = {}
       `Gifts must be worth $15 or less and can’t be cash or cash equivalents. Remove: ${[...cash, ...big].join(', ')}.`);
     add('gifts_ack', 'Gift rules confirmed', Boolean(e.gifts_ack), 'block', `Check the box: “${GIFTS_ACK}”`);
   }
-  if (/\bmedicare seminar\b/.test(norm) && !/licensed insurance agent/.test(normalizeText(e.title))) {
-    add('seminar_title', 'Title identifies who is presenting', false, 'warn', 'Consider adding “with Jahmai Royster, licensed insurance agent” to the title.');
+  if (/\bmedicare seminar\b/.test(norm) && !/licensed medicare broker/.test(normalizeText(e.title))) {
+    add('seminar_title', 'Title identifies who is presenting', false, 'warn', 'Consider adding “with Jahmai Royster, licensed Medicare broker” to the title.');
   }
   if (db) {
     const pairs = sameDayPairs(db, e);

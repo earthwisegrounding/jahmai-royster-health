@@ -92,8 +92,8 @@ function createEventsPublic(ctx) {
   function detailHtml(req, e, { form = {}, preview = false } = {}) {
     const full = e.capacity ? E.seatsTaken(db, e.id) >= e.capacity : false;
     return {
-      title: `${e.title} | Events | Jahmai Royster, Licensed Insurance Agent`,
-      description: (e.summary || `${R.fmtDay(e.starts_at)} event with Jahmai Royster, licensed insurance agent.`).slice(0, 200),
+      title: `${e.title} | Events | Jahmai Royster, Licensed Medicare Broker`,
+      description: (e.summary || `${R.fmtDay(e.starts_at)} event with Jahmai Royster, licensed Medicare broker.`).slice(0, 200),
       main: R.renderDetail(e, { tpmo: tpmoBand(), form, full, token: ctx.formTokens.issue().token, preview, following: E.followingSalesEvent(db, e) }),
       head: R.jsonLd(e, baseUrl()),
       canonicalPath: `/events/${encodeURIComponent(e.slug)}/`,

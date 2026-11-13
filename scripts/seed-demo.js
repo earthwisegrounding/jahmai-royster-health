@@ -181,7 +181,7 @@ async function main() {
       accessibility_notes: 'Wheelchair accessible; parking at the front entrance; large-print handouts available.', capacity: 40, rsvp_enabled: 1, healthcare_setting: 'no',
     });
     ev({
-      title: 'Online information session with Jahmai Royster, licensed insurance agent (demo)', event_type: 'marketing', starts_at: at(12, 18), ends_at: at(12, 19), format: 'online',
+      title: 'Online information session with Jahmai Royster, licensed Medicare broker (demo)', event_type: 'marketing', starts_at: at(12, 18), ends_at: at(12, 19), format: 'online',
       online_join_info: 'Demo video link: https://example.com/demo-meeting\nOr dial (404) 555-0199, code 000 000 (fictional)',
       summary: 'Compare this year’s plans from the companies Jahmai represents, from home. Ask questions on camera or by chat.',
       description: 'Jahmai will review plan options available in Georgia from the insurance companies Jahmai represents and answer questions.\n\nUse “Get the join link” on the event page; signing up is optional.',

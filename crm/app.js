@@ -1715,7 +1715,7 @@
   function eventDefs() {
     return [
       { legend: 'About the event', fields: [
-        { name: 'title', label: 'Title', required: true, maxlength: 90, full: true, hint: 'Plain and specific, e.g. “Medicare basics with Jahmai Royster, licensed insurance agent”.' },
+        { name: 'title', label: 'Title', required: true, maxlength: 90, full: true, hint: 'Plain and specific, e.g. “Medicare basics with Jahmai Royster, licensed Medicare broker”.' },
         { name: 'event_type', label: 'Event type', type: 'select', options: opts('event_types'), required: true, full: true,
           hint: 'Educational: general Medicare information only. Information and enrollment: specific plans are discussed and applications may be taken.' },
         { name: 'summary', label: 'Short summary', type: 'textarea', rows: 2, maxlength: 200, full: true, hint: 'Up to 200 characters. Shown on the events list.' },

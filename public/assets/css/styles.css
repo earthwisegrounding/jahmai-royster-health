@@ -701,7 +701,7 @@ main, .site-footer { overflow-x: clip; }
    Responsive
    ========================================================================= */
 @media (min-width: 1181px) {
-  .brand-tag { display: none; }   /* the top bar already says "Licensed insurance agent" */
+  .brand-tag { display: none; }   /* the top bar already says "Licensed Medicare broker" */
 }
 @media (min-width: 1181px) and (max-width: 1320px) {
   .nav-link, .sub-toggle { padding: 0 8px; }

@@ -22,7 +22,7 @@ const SETTINGS = {
   retention_years: { type: T.int(1, 50), label: 'Retention years' },
 };
 const SETTING_DEFAULTS = {
-  business_name: 'Jahmai Royster, Licensed Insurance Agent', number_of_organizations: '6', business_hours: 'Monday–Friday, 9 AM–5 PM Eastern',
+  business_name: 'Jahmai Royster, Licensed Medicare Broker', number_of_organizations: '6', business_hours: 'Monday–Friday, 9 AM–5 PM Eastern',
   office_phone: '2293766879', retention_years: '10',
 };
 

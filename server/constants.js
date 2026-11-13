@@ -55,8 +55,8 @@ const CONSENT_CHANNELS = [['call', 'Calls'], ['text', 'Texts'], ['email', 'Email
 const CONSENT_SOURCES = [['web_form', 'Website form'], ['verbal', 'Verbal'], ['written', 'Written'], ['text_reply', 'Text reply (e.g. STOP)'], ['manual', 'Entered by staff'], ['suppression', 'Opt-out list']];
 
 // Must match the checkbox label on the public site word for word.
-const WEB_CONSENT_VERSION = '2026-10-21';
-const WEB_CONSENT_TEXT = 'Optional: I agree that Jahmai Royster, a licensed insurance agent, may call and text me at the number above about Medicare plans, including calls and texts made with an autodialer or an artificial or prerecorded voice. Consent is not required to buy anything. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. See the text message terms and privacy policy.';
+const WEB_CONSENT_VERSION = '2026-11-13';
+const WEB_CONSENT_TEXT = 'Optional: I agree that Jahmai Royster, a licensed Medicare broker, may call and text me at the number above about Medicare plans, including calls and texts made with an autodialer or an artificial or prerecorded voice. Consent is not required to buy anything. Message frequency varies. Message and data rates may apply. Reply STOP to opt out or HELP for help. See the text message terms and privacy policy.';
 
 const TASK_PRIORITIES = [['low', 'Low'], ['normal', 'Normal'], ['high', 'High']];
 const ROLES = [['admin', 'Admin'], ['agent', 'Agent']];

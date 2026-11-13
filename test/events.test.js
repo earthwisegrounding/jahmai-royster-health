@@ -48,7 +48,7 @@ test('event publish rules', () => {
 
   const seminar = checkEvent(base({ title: 'Medicare Seminar' }));
   assert.ok(seminar.warnings.some((x) => x.id === 'seminar_title'));
-  assert.ok(!checkEvent(base({ title: 'Medicare seminar with Jahmai Royster, licensed insurance agent' })).warnings.some((x) => x.id === 'seminar_title'));
+  assert.ok(!checkEvent(base({ title: 'Medicare seminar with Jahmai Royster, licensed Medicare broker' })).warnings.some((x) => x.id === 'seminar_title'));
 
   assert.ok(failing(base({ format: 'online', venue_name: null, address: null, city: null })).includes('join'), 'online needs join info');
   assert.deepEqual(failing(base({ format: 'online', online_join_info: 'link', rsvp_enabled: 0, venue_name: null, address: null, city: null })), [], 'online events need no RSVP (H1)');

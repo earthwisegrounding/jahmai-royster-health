@@ -261,7 +261,7 @@ function jsonLd(e, baseUrl = '') {
     eventAttendanceMode: e.format === 'online' ? 'https://schema.org/OnlineEventAttendanceMode' : 'https://schema.org/OfflineEventAttendanceMode',
     location: e.format === 'online' ? { '@type': 'VirtualLocation', url }
       : { '@type': 'Place', name: e.venue_name, address: { '@type': 'PostalAddress', streetAddress: e.address, addressLocality: e.city, addressRegion: 'GA', postalCode: e.zip || undefined, addressCountry: 'US' } },
-    organizer: { '@type': 'Person', name: 'Jahmai Royster', jobTitle: 'Licensed Insurance Agent', telephone: '+1-229-376-6879' },
+    organizer: { '@type': 'Person', name: 'Jahmai Royster', jobTitle: 'Licensed Medicare Broker', telephone: '+1-229-376-6879' },
   };
   return `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c').replace(/>/g, '\\u003e').replace(/&/g, '\\u0026')}</script>`;
 }

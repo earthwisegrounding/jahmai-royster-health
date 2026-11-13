@@ -2,7 +2,7 @@
   "name": "jahmai-royster-health",
   "version": "1.0.0",
   "private": true,
-  "description": "Website, lead intake and CRM for Jahmai Royster, licensed Medicare insurance agent (Georgia).",
+  "description": "Website, lead intake and CRM for Jahmai Royster, licensed Medicare broker (Georgia).",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=25"
