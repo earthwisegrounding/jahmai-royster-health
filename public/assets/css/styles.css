@@ -386,8 +386,12 @@ html.js .audio-note.is-enhanced .audio-native { display: none; }
 .portrait-frame { padding-bottom: 18px; }
 .nameplate img, .portrait-frame img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius-sm); }
 .portrait-frame img { aspect-ratio: 4 / 5; }
-.nameplate figcaption { padding: 16px 8px 22px; text-align: center; color: #fff; font-family: var(--font-sign); font-weight: 800; font-size: 1.6rem; line-height: 1.15; }
-.nameplate figcaption small { display: block; margin-top: 6px; font-family: var(--font-body); font-weight: 700; font-size: max(.9rem, 17px); color: var(--guide-ink); }
+.nameplate figcaption, .nameplate-text p { padding: 16px 8px 22px; text-align: center; color: #fff; font-family: var(--font-sign); font-weight: 800; font-size: 1.6rem; line-height: 1.15; }
+.nameplate figcaption small, .nameplate-text p small { display: block; margin-top: 6px; font-family: var(--font-body); font-weight: 700; font-size: max(.9rem, 17px); color: var(--guide-ink); }
+/* No photo yet: the name plate is a plain guide sign. */
+.nameplate-text { width: 100%; padding: 34px 28px 30px; }
+.nameplate-text p { margin: 0; padding: 0; font-size: clamp(2rem, 3.4vw, 2.6rem); line-height: 1.05; }
+.nameplate-text p small { margin-top: 12px; line-height: 1.3; }
 
 .checklist { list-style: none; padding: 0; }
 .checklist li { position: relative; padding-left: 44px; }
